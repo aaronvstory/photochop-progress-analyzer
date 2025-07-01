@@ -13,6 +13,12 @@ Real-time monitoring system for Photoshop generative expand operations with colo
 - **Interactive Menu System**: Easy-to-use batch file interface
 - **Cross-Platform Support**: Works on Windows, macOS, and Linux
 
+## 📸 Live Example
+
+![Photochop Progress Analyzer in Action](docs/images/monitoring-example.png)
+
+*Real-time monitoring showing 96.8% completion (60/62 folders processed) with performance analytics, system resource monitoring, and detailed progress breakdown.*
+
 ## 📋 Requirements
 
 - **Python 3.7+** with the following packages:
