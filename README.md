@@ -1,6 +1,34 @@
+# Photochop Progress Analyzer
+
+Real-time monitoring system for Photoshop generative expand operations with colorized output, progress bars, and detailed folder-by-folder analysis.
+
+## 🚀 Features
+
+- **Real-time Progress Tracking**: Monitor Photoshop generative expand operations in real-time
+- **Colorized CLI Output**: Beautiful, easy-to-read console interface with progress bars
+- **Flexible Path Support**: Auto-detect project structures or monitor custom folders  
+- **Performance Analytics**: Track processing speed, completion estimates, and trends
+- **System Resource Monitoring**: CPU and RAM usage tracking
+- **Stagnation Detection**: Alerts when progress stalls for extended periods
+- **Interactive Menu System**: Easy-to-use batch file interface
+- **Cross-Platform Support**: Works on Windows, macOS, and Linux
+
+## 📋 Requirements
+
+- **Python 3.7+** with the following packages:
+  - `psutil` (for system resource monitoring)
+  - `tkinter` (usually included with Python)
+- **Windows**: Administrator privileges required for the batch file launcher
+- **Photoshop**: Any version that creates files with `gen-` prefix for generative expand
+
+## 🛠️ Installation
+
+### Option 1: Download Release (Recommended)
+1. Download the latest release from [GitHub Releases](https://github.com/aaronvstory/photochop-progress-analyzer/releases)
+2. Extract to your desired location (e.g., `C:\Tools\photochop-analyzer\`)
 3. Install Python dependencies:
    ```bash
-   pip install psutil
+   pip install -r requirements.txt
    ```
 4. Run the application
 
@@ -8,7 +36,7 @@
 ```bash
 git clone https://github.com/aaronvstory/photochop-progress-analyzer.git
 cd photochop-progress-analyzer
-pip install psutil
+pip install -r requirements.txt
 ```
 
 ## 🚀 Quick Start
